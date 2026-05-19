@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing_issue",
+    "priority": "high",
+    "reason": "Duplicate charge on bank card needs prompt resolution.",
+    "suggested_reply": "We apologize for the inconvenience caused by the duplicate charge. We will investigate and reverse the extra charge promptly. Thank you for your patience.",
+    "route_to": "payments_queue",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "account_access",
+    "priority": "urgent",
+    "reason": "User cannot access account before market opens, urgent issue.",
+    "suggested_reply": "We're sorry you're having trouble logging in. Please try resetting your password again or contact support immediately for urgent assistance before market open.",
+    "route_to": "trust_and_access_queue",
+    "confidence": 0.98
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "product_how_to",
+    "priority": "normal",
+    "reason": "User requests instructions to export transaction history.",
+    "suggested_reply": "You can download your transaction history as a CSV file from the account settings under 'Transaction History'. Let us know if you need further help.",
+    "route_to": "general_support_queue",
+    "confidence": 0.9
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "bug_report",
+    "priority": "high",
+    "reason": "App crashes on portfolio tab after update, needs fixing.",
+    "suggested_reply": "Thank you for reporting the app crash issue. Our team is investigating this bug and working on a fix. We appreciate your patience.",
+    "route_to": "technical_queue",
+    "confidence": 0.92
+  }
+]

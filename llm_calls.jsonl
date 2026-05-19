@@ -1,0 +1,1 @@
+{"stage":"TRIAGE_PREDICTED","timestamp":"2026-05-19T06:56:35.131Z","provider":"openai","model":"gpt-4.1-mini","prompt_hash":"2748e76b0dd7b77d1a16b43d320b0af70f635801f1af2a3615e32c165235da1c","input_artifacts":["normalized_tickets.json","triage_config.json"],"output_artifact":"triage_predictions.json"}

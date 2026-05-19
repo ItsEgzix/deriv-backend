@@ -1,0 +1,40 @@
+{
+  "input_hashes": {
+    "tickets": "8b7dcce90576fd0378216b0564745924b6dbbbfe5ddc519de4b981e15b0228e9",
+    "config": "a62968b5c8e217cf36c9457871f3b5758cee2ba545f6f7b1c4303ca61794df99"
+  },
+  "stages": [
+    {
+      "stage": "INIT",
+      "timestamp": "2026-05-19T06:56:30.058Z"
+    },
+    {
+      "stage": "INPUTS_LOADED",
+      "timestamp": "2026-05-19T06:56:30.164Z"
+    },
+    {
+      "stage": "TICKETS_NORMALIZED",
+      "timestamp": "2026-05-19T06:56:30.186Z"
+    },
+    {
+      "stage": "TRIAGE_PREDICTED",
+      "timestamp": "2026-05-19T06:56:35.132Z"
+    },
+    {
+      "stage": "HUMAN_REVIEW_COMPLETE",
+      "timestamp": "2026-05-19T06:56:35.159Z"
+    },
+    {
+      "stage": "FINAL_QUEUE_GENERATED",
+      "timestamp": "2026-05-19T06:56:35.174Z"
+    },
+    {
+      "stage": "VALIDATION_COMPLETE",
+      "timestamp": "2026-05-19T06:56:35.187Z"
+    },
+    {
+      "stage": "RESULTS_FINALISED",
+      "timestamp": "2026-05-19T06:56:35.190Z"
+    }
+  ]
+}
